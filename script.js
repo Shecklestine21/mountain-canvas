@@ -82,6 +82,22 @@ ctx.beginPath();
 ctx.arc(190, 315, 40, 0, 2*Math.PI);
 ctx.fill();
 
+//text
+ctx.font = "25px Arial";
+ctx.fillStyle = "white";
+ctx.fillText("Art by Riley Hodder", 750, 950)
+
+//goat img
+var goatImg = document.getElementById("goatEl");
+ctx.drawImage(goatImg, 550, 400, 90, 90 );
+ctx.drawImage(goatImg, 650, 600, 90, 90 );
+ctx.drawImage(goatImg, 250, 760, 90, 90 );
+
+//plane
+var planeImg = document.getElementById("planeEl");
+ctx.drawImage(planeImg, 350, 100, 90, 90 );
+
+
 //markings for cords
 //ctx.fillStyle = "cyan";
 //ctx.beginPath();
