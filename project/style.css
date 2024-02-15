@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+#myCanvas {
+    border: 2px solid black;
+}
+
+#cloudEl {
+    display: none;
+}
+
+#goatEl {
+    display: none;
+}
+
+#planeEl {
+    display: none;
+}
